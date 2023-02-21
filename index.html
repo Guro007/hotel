@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.5.0/css/all.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:ital@1&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
+    <style> @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:ital@1&family=Josefin+Sans:wght@100&display=swap'); </style>
+    <title>Document</title>
+</head>
+<body>
+  <style>
+    #back-to-top {
+  position: fixed;
+  z-index: 1111;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  width: 2.625rem;
+  height: 2.625rem;
+  border-radius: 1.875rem;
+  border: none;
+  background: #9729ad url(images38/up-arrow.png) no-repeat center 47%;
+  background-size: 1.125rem 1.125rem;
+  text-indent: -9999px;
+}
+
+
+  </style>
+  <button id="back-to-top"></button>
+  <!-- nav -->
+  <div class="nav">
+    <input id="check" type="checkbox">
+        <div class="nav2">
+            <div class="logo">
+                <a class="opacity" href="index.html#header">
+                  <img class="animate__heartBeat" src="images38/logo.svg" alt="">
+                </a>
+            </div>
+            <label for="check">
+                <i class="fas fa-bars animate__heartBeat" id="btn" onclick="toggleZ()"></i>
+            </label>
+        </div>
+    <ul class="opacity hide m-0 p-lg-0" id="sidebar">
+        <li><a class="nav-link active" href="index2.html">Article</a></li>
+        <li class="list">
+            <label for="btn1" class="nav-link" id="nav-link"> Rooms 
+                <span class="fas fa-caret-down" id="button1"></span>
+            </label>
+            <input type="checkbox" id="btn1">
+            <ul class="drop">
+                <li class="bottom">
+                    <a class="nav-link" href="index3.html">Balcony Room</a> 
+                </li>
+                <li class="middle">
+                    <a class="nav-link" href="index4.html"> Panoramic Room</a> 
+                </li>
+                <li class="top">
+                    <a class="nav-link" href="index5.html">Presidential Room</a> 
+                </li>
+            </ul>
+        </li> 
+        <li class="list"><a class="nav-link" href="index6.html">Contact</a></li>
+        <li class="social2">
+          <a href="">
+            <i class="fa-sharp fa-solid fa-phone"></i>
+            1-800-324-9832
+          </a>
+        </li>
+        <li>
+          <div class="language">
+            <a class="lang-item no-line active" href="index.html">
+              <img src="images38/language-en.jpg" alt="alternative">EN
+            </a>
+            <span class="dropdown-divider2"></span>
+            <a class="lang-item no-line p-0" href="index.html">
+              <img src="images38/language-it.jpg" alt="alternative">IT
+            </a>
+          </div>
+        </li>
+    </ul>
+</div>
+  <!-- end of nav -->
+  <!--header -->
+  <div class="header">
+  <div class="text-container">
+    <h1>Villa The Amazing Experience</h1>
+    <div class="buttons22">
+      <button type="button" class="btn btn-primary" id="open-button4" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Us</button>
+      <button class="details2"><a href="#description">Discover</a></button>
+    </div>
+  </div>
+  </div>
+  <!-- end of header -->
+  <!--description-->
+  <div class="description" id="description">
+    <div class="head-text">
+    <h1>Get To Know Villa</h1>
+    <p style="margin-bottom: 3.75rem;">Villa is an unique Bed and Breakfast unit situated on the magnificent Mediterranean sea shores, prepared to welcome tranquility seeking tourists all year long</p>
+    </div>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper p-0">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images38/description-1.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/description-2.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/description-3.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/description-4.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/description-5.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/description-6.jpg" alt="" style="width: 100%; height: 100%; border-radius: 0;">
+        </div>
+      </div>  
+       <!-- If we need navigation buttons -->
+       <div class="swiper-button-prev" style="color: rgb(255, 255, 255);"></div>
+       <div class="swiper-button-next" style="color: rgb(255, 255, 255);"></div>
+    </div>
+  </div>
+  <!--end-of-description-->
+  <!--tabs-->
+  <div class="tabs2">
+  <div class="head-tabs"  style="text-align: center;">
+    <div class="head-text2">
+      <h1 style="color: white;">Amazing Facilities</h1>
+      <p style="color: white; margin-bottom: 3rem;">Everything you need for a relaxed stay. Villa's facilities were designed to accommodate the needs of tourists with very high demands from all over the world
+      </p>
+    </div>
+    <!--tabs-->
+    <div class="tabs">
+      <div class="tab3" data-tab="tab1">
+        <li class="tab active" data-tab="tab1">
+          <i class="fas fa-utensils"></i>
+          <h3 class="m-0">Restaurant</h3>
+        </li>
+      </div>
+      <div class="tab3" data-tab="tab2">
+        <li class="tab" data-tab="tab2">
+          <i class="fas fa-glass-martini-alt"></i>
+          <h3 class="m-0">Terrace</h3>
+        </li>
+      </div>
+      <div class="tab3" data-tab="tab3">
+        <li class="tab" data-tab="tab3">
+          <i class="fas fa-sun"></i>
+          <h3 class="m-0">Beach</h3>
+        </li>
+      </div>
+      <div class="tab3">
+        <li class="tab" data-tab="tab4">
+          <i class="fas fa-futbol"></i>
+          <h3 class="m-0">Playground</h3>
+        </li>
+      </div>
+      <div class="tab3">
+        <li class="tab" data-tab="tab5">
+          <i class="fas fa-car"></i>
+          <h3 class="m-0">Parking</h3>
+        </li>
+      </div>
+      <div class="indicator"></div>
+    </div>  
+  </div> 
+  <!--end of tabs-->
+  <!--tab content-->
+  <div class="tab-content">
+    <div id="tab1">
+      <div class="image-container">
+        <img src="images38/facilities-tab-1.jpg" alt="">
+      </div>
+      <div class="text-container2">
+        <h1 style="color: #1ebbce;">Delicious Slow-cooked Local Food</h1>
+      <p>We serve delicious food from the local cuisine made with natural ingredients from local farms and markets. Besides the range of meat dishes Villa is vegetarian friendly too.</p>
+      <p>No need to hurry in the morning to get good food since our breakfast serving times extend in the early noon.</p>
+      <p><strong>OPEN FROM 8:00 TO 22:00</strong></p>
+      </div>
+    </div>
+    <div id="tab2">
+      <div class="image-container">
+        <img src="images38/facilities-tab-2.jpg" alt="" style="margin-bottom: 10px;">
+      </div>
+      <div class="text-container2">
+        <h1 style="color: #1ebbce;">Beautiful Terrace For Coffee and Drinks</h1>
+        <p>Start your vacation day with an invigorating coffee and choose to sit down and relax or plan your trips to the surrounding historical sites and tourists attractions.</p>
+        <p>Besides alcoholic beverages we also serve a great assortment of smoothies and non-alcoholic cocktails.</p>
+        <div class="buttons">
+          <button class="first" style="border-radius: 2rem;">
+            <a href="index2.html">Article</a>
+          </button>
+          <button class="second" style="border-radius: 2rem;">
+            <a href="index6.html">Contact</a>
+          </button>
+        </div>
+      </div> 
+    </div>
+    <div id="tab3">
+      <div class="image-container">
+        <img src="images38/facilities-tab-3.jpg" alt="">
+      </div>
+      <div class="text-container2">
+        <h1 style="color: #1ebbce;">Warm Beaches And Turquoise Waters</h1>
+        <p>There are 2 beautiful sunny beaches near Villa, conveniently equipped with beach chairs, umbrellas, beach bar, showers and trained life guards for your safety.</p>
+        <ul class="list2 p-0">
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Get sun exposure all day long due to the orientation</h5>
+              </div>
+          </li>
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Gold sand which extends for a long stretch in the water</h5>
+              </div>
+          </li>
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Amenities are built to provide maximum relaxation</h5>
+              </div>
+          </li>
+        </ul>
+        <a class="green" href="index2.html">Read More &gt;&gt;</a>
+      </div>
+    </div>
+    <div id="tab4">
+      <div class="image-container">
+        <img src="images38/facilities-tab-4.jpg" alt="" style="margin-bottom: 10px;">
+      </div>
+      <div class="text-container2">
+        <h1 style="color: #1ebbce;">Kids Are Happy When Having Fun</h1>
+        <p>Children have their own space to have fun and play games under adult supervision so you can enjoy a few moments of relaxation in your room or some beach-front activities.</p>
+        <p>You can check up on them through the provided video surveillance mobile app designed for parents.</p>
+        <p><strong>OPEN FROM 8:00 TO 22:00</strong></p>
+      </div>
+    </div>
+    <div id="tab5">
+      <div class="image-container">
+        <img src="images38/facilities-tab-5.jpg" alt="">
+      </div>
+      <div class="text-container2">
+        <h1 style="color: #1ebbce;">No Need To Worry About Your Car</h1>
+        <p>Villa offers free parking for all its customers in a safe and easy to reach area. The parking area is guarded and supervised with special cameras for your peace of mind</p>
+        <ul class="list2 p-0">
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Free access for any type of car and station wagon</h5>
+              </div>
+          </li>
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Video surveillance and gated access as standard options</h5>
+              </div>
+          </li>
+          <li>
+              <i class="fas fa-square"></i>
+              <div>
+                  <h5 style="color: #1ebbce;">Enjoy your stay without being concerned about the car</h5>
+              </div>
+          </li>
+        </ul>
+        <p><strong>PARKING SCHEDULE: NON-STOP</strong></p>
+      </div>
+    </div>
+  </div>
+  <!--end of tab content-->
+  </div>
+  <!--card1-->
+  <div class="card1">
+  <div class="row">
+    <h1>Comfort And Relaxation</h1>
+    <ul class="list3">
+      <li class="address">Villa's rooms offer comfort and relaxation. All of them include:</li>
+      <li><i class="fas fa-wifi"></i>Free Wi-Fi</li>
+      <li><i class="fas fa-bath"></i>Private bathroom</li>
+      <li><i class="fas fa-tablet"></i>Cabinet fridge</li>
+      <li><i class="fas fa-tv"></i>Widescreen LCD</li>
+      <li><i class="fas fa-snowflake"></i>Air conditioning</li>
+    </ul>
+  </div>
+  <!--col-->
+  <div class="col">
+    <div class="col2">
+      <div class="img">
+        <img src="images38/room-balcony-1.jpg" alt="" style="width: 100%;">
+      </div>
+      <h1 style="color: #1ebbce;">Balcony Room - $59/day</h1>
+      <p>Our entry level room gives you access to all amenities at a really affordable price</p>
+      <div class="buttons22">
+        <button type="button" class="btn btn-primary" id="open-button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Us</button>
+        <a href="index3.html"><button class="details">Details</button></a>
+      </div>
+    </div>
+    <div class="col2">
+      <div class="img">
+        <img src="images38/room-panoramic-1.jpg" alt="" style="width: 100%;">
+      </div>
+      <h1  style="color: #1ebbce;">Panoramic Room - $79/day</h1>
+      <p>Get the best view to the beautiful sea and the truly splendid Villa surroundings</p>
+      <div class="buttons22">
+        <button type="button" class="btn btn-primary" id="open-button2" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Us</button>
+        <a href="index4.html"><button class="details">Details</button></a>
+      </div>
+    </div>
+    <div class="col2">
+      <div class="img">
+        <img src="images38/room-presidential-1.jpg" alt="" style="width: 100%;">
+      </div>
+      <h1  style="color: #1ebbce;">Presidential Room - $99/day</h1>
+      <p>High class luxury for the most demanding tourists. Features great panorama</p>
+      <div class="buttons22">
+        <button type="button" class="btn btn-primary" id="open-button3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Book Us</button>
+        <a href="index5.html"><button class="details">Details</button></a>
+      </div>
+    </div>
+    <!--popups-->
+    <div id="popup">
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" style="margin-top:5rem">
+          <div class="modal-content">
+            <div class="modal-header" style="border-bottom: none; align-items: baseline; justify-content: space-between;">
+              <h1>Fill out and send the form to book Villa</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="desktop-flex2">
+                <div class="label2">
+                    <div class="container2">
+                        <input type="name" required="required" id="input1">
+                        <label>Complete Name</label>
+                    </div>
+                    <div class="container2">
+                        <input type="phone" required="required" id="input2">
+                        <label>Email Address</label>
+                    </div>
+                    <div class="container2">
+                        <input type="email" required="required" id="input3">
+                        <label>Phone Number</label>
+                    </div>
+                    <select name="" id="Interested">
+                        <option value="Interested in...">Choose room...</option>
+                        <option value="Off The Ground">Balcony Room</option>
+                        <option value="">Panoramic Room</option>
+                        <option value="">Presidential Room</option>
+                    </select>
+                    <div class="container2">
+                      <input type="email" required="required" id="input4">
+                      <label>Check-in</label>
+                    </div>
+                    <div class="container2">
+                      <input type="email" required="required" id="input5">
+                      <label>Check-out</label>
+                    </div>
+                </div>
+                <button class="btn6"><a href="">Book Now</a></button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of popups-->
+  </div>
+  <!--end of col-->
+  </div>
+  <!--card2-->
+  <div class="card2">
+    <div class="head-text3" style="font-style: italic;">
+      <h1>Popular Attractions</h1>
+    </div>
+    <hr style="margin: 1rem auto; width: 5rem;">
+    <div class="card4">
+      <div class="card3">
+        <div class="row2">
+          <div class="img">
+            <img src="images38/attraction-1.jpg" alt="" style="width: 100%;">
+          </div>
+          <p><strong>AFITOS OLD TOWN:</strong> Full of historical importance for this part of the world, Afitos Old Towm will impress you...
+            <a class="green" href="index2.html">Read More &gt;&gt;</a>
+          </p>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="row2">
+          <div class="img">
+            <img src="images38/attraction-2.jpg" alt="" style="width: 100%;">
+          </div>
+          <p><strong>NAVAGIO BEACH:</strong> Is the most famous beach at the Mediterranean sea with white sands and cool beach bars. In the week...
+            <a class="green" href="index2.html">Read More &gt;&gt;</a>
+          </p>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="row2">
+          <div class="img">
+            <img src="images38/attraction-3.jpg" alt="" style="width: 100%;">
+          </div>
+          <p><strong>AEGEAN BELVEDERE:</strong> The best place to watch the sunset in a romantic atmosphere and maybe even drink a glass of wine...
+            <a class="green" href="index2.html">Read More &gt;&gt;</a>
+          </p>
+        </div>
+      </div>
+      <div class="card3">
+        <div class="row2">
+          <div class="img">
+            <img src="images38/attraction-4.jpg" alt="" style="width: 100%;">
+          </div>
+          <p><strong>JAMES WHITE HOUSE:</strong>  Don't miss this great tourist attraction. The famous writer's house will fascinate literature...
+            <a class="green" href="index2.html">Read More &gt;&gt;</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--end of card2-->
+  <!--slider-->
+  <div class="slider">
+    <div class="head-text4">
+      <h1>Visitors Reviews</h1>
+      <hr style="margin: 1rem auto; width: 5rem;">
+    </div>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="images38/testimonial-1.jpg" alt="">
+          <div>
+              <h1>Our stay at Villa was amazing. I didn't think this part of the world can be so beautiful, amazing stay.</h1>
+              <h3>Lindsay Spice - Designer</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/testimonial-2.jpg" alt="">
+          <div>
+              <h1>Loved the villa and its surroundings but I was especially impressed by the beautiful sandy beaches</h1>
+              <h3>Ann Black - Developer</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/testimonial-3.jpg" alt="">
+          <div>
+              <h1>I just can't find the words to describe our experience. The staff was great, rooms were very clean</h1>
+              <h3>Jude Thorn - Designer</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/testimonial-4.jpg" alt="">
+          <div>
+              <h1>So many ways to have fun. You never get bored. You can relax at the beach or have fun in the old town</h1>
+              <h3>Roy Smith - Develope</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/testimonial-5.jpg" alt="">
+          <div>
+              <h1>Came together with my parents and was able to offer them the best vacation they ever had. I will return</h1>
+              <h3>Roy Smith - Develope</h3>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images38/testimonial-6.jpg" alt="">
+          <div>
+              <h1>Definitely worth the price. The services are of the highest quality, staff is very friendly and nice</h1>
+              <h3>Roy Smith - Develope</h3>
+          </div>
+        </div>
+      </div>  
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev" style="color: white;"></div>
+      <div class="swiper-button-next" style="color: white;"></div>
+    </div>
+  </div>
+  <!--end of slider-->
+  <!--location-->
+  <div class="map">
+    <div class="row" style="font-style: italic;">
+      <h1>Location Details</h1>
+      <ul class="list3">
+        <li class="address">We're waiting for your visit:</li>
+        <li><i class="fas fa-map-marker-alt"></i>Villa Bed And Breakfast, Firostefani, 84700, Santorini, Cyclades islands, Greece</li>
+        <li><i class="fas fa-phone"></i><a class="green" href="tel:003024630820">+81 720 2212</a></li>
+        <li><i class="fas fa-envelope"></i><a class="green" href="mailto:reception@villa.com">reception@villa.com</a></li>
+      </ul>
+    </div>
+    <div class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d102754.72704642733!2d25.35059079209915!3d36.40713340091283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1499ce86adfd9ff7%3A0xb2a761f740d68afc!2sSantorini!5e0!3m2!1sen!2sge!4v1676571893930!5m2!1sen!2sge" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <!--end of location-->
+  <!--footer-->
+  <div class="footer">
+    <div class="head-text5">
+      <h1>If you are looking too have a comfortable and relaxing time then you should get in touch with us using <a class="green" href="mailto:reception@villa.com">reception@villa.com</a></h1>
+      <ul class="social p-0">
+        <li>
+          <a href="">
+            <i class="fa-brands fa-facebook-f" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-twitter" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-pinterest-p" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-instagram" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-youtube" style="width: 25px;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--end of footer-->
+  <!--copyright-->
+  <div class="copyright">
+    <div class="copy">
+      <ul class="list4" style="margin-bottom: 0; margin-top: 1.5rem; padding-left: 0;">
+        <li>
+          <a href="index2.html">Article</a>
+        </li>
+        <li>
+          <a href="index3.html">Balcony Room</a>
+        </li>
+        <li>
+          <a href="index4.html">Panoramic Room</a>
+        </li>
+        <li>
+          <a href="index5.html">Presidential Room</a>
+        </li>
+        <li style="margin-bottom: 0;">
+          <a href="index6.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="copy2">
+      <h3 style="margin-bottom: 0;">Copyright ©</h3>
+    </div>
+  </div>
+  <!--end of copyright-->
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+  const backToTopButton = document.querySelector("#back-to-top");
+
+backToTopButton.addEventListener("click", function() {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+</script>
+<script>
+  window.addEventListener("scroll", function() {
+  if (window.pageYOffset > 100) {
+    backToTopButton.style.display = "block";
+  } else {
+    backToTopButton.style.display = "none";
+  }
+});
+
+</script>
+
+  <script>
+    function toggleZ() {
+      var element = document.getElementById("sidebar");
+      element.classList.toggle("hide");
+    }
+</script>
+
+<script>
+    const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach(link => {
+link.addEventListener("click", function() {
+navLinks.forEach(link => link.classList.remove("active"));
+this.classList.add("active");
+});
+});
+
+  </script>
+
+<script>
+  const swiper = new Swiper('.swiper', {
+      autoplay:{
+         delay:4000,
+         disableOnInteraction:false, 
+      }, 
+
+      loop: true, 
+      pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+  }, 
+  navigation: {
+  nextEl: '.swiper-button-next',
+  prevEl: '.swiper-button-prev',
+  }, 
+
+  breakpoints: {
+// when window width is >= 576px
+576: {
+slidesPerView: 1,
+},
+// when window width is >= 480px
+768: {
+slidesPerView: 2,
+},
+// when window width is >= 640px
+990: {
+slidesPerView: 3,
+},
+},
+});
+</script>
+
+
+
+<script>
+  const tabs = document.querySelectorAll(".tab");
+const indicator = document.querySelector(".indicator");
+const content = document.querySelectorAll(".tab-content > div");
+
+tabs.forEach(tab => {
+tab.addEventListener("click", e => {
+tabs.forEach(tab => {
+tab.classList.remove("active");
+});
+tab.classList.add("active");
+indicator.style.left = tab.offsetLeft + "px";
+indicator.style.width = tab.offsetWidth + "px";
+content.forEach(c => {
+c.style.display = "none";
+});
+document.getElementById(tab.dataset.tab).style.display = "block";
+});
+});
+
+  </script>
+
+</body>
+</html>

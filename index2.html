@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="index2.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.5.0/css/all.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:ital@1&family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/> 
+    <style> @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:ital@1&family=Josefin+Sans:wght@100&display=swap'); </style>
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        #back-to-top {
+      position: fixed;
+      z-index: 1111;
+      bottom: 20px;
+      right: 20px;
+      display: none;
+      width: 2.625rem;
+      height: 2.625rem;
+      border-radius: 1.875rem;
+      border: none;
+      background: #9729ad url(images38/up-arrow.png) no-repeat center 47%;
+      background-size: 1.125rem 1.125rem;
+      text-indent: -9999px;
+    }</style>
+    <button id="back-to-top"></button>
+    <!-- nav -->
+    <div class="nav">
+        <input id="check" type="checkbox">
+            <div class="nav2">
+                <div class="logo">
+                    <a class="opacity" href="index.html">
+                      <img src="images38/logo.svg" alt="">
+                    </a>
+                </div>
+                <label for="check">
+                    <i class="fas fa-bars animate__heartBeat" id="btn" onclick="toggleZ()"></i> 
+                </label>
+            </div>
+        <ul class="opacity hide m-0 p-lg-0" id="sidebar">
+            <li><a class="nav-link active" href="index2.html#header">Article</a></li>
+            <li class="list">
+                <label for="btn1" class="nav-link" id="nav-link"> Rooms 
+                    <span class="fas fa-caret-down" id="button1"></span>
+                </label>
+                <input type="checkbox" id="btn1">
+                <ul class="drop">
+                    <li class="bottom">
+                        <a class="nav-link" href="index3.html">Balcony Room</a> 
+                    </li>
+                    <li class="middle">
+                        <a class="nav-link" href="index4.html"> Panoramic Room</a> 
+                    </li>
+                    <li class="top">
+                        <a class="nav-link" href="index5.html">Presidential Room</a> 
+                    </li>
+                </ul>
+            </li> 
+            <li class="list"><a class="nav-link" href="index6.html">Contact</a></li>
+            <li class="social2">
+              <a href="">
+                <i class="fa-sharp fa-solid fa-phone"></i>
+                1-800-324-9832
+              </a>
+            </li>
+            <li>
+              <div class="language">
+                <a class="lang-item no-line active" href="index.html">
+                  <img src="images38/language-en.jpg" alt="alternative">EN
+                </a>
+                <span class="dropdown-divider2"></span>
+                <a class="lang-item no-line p-0" href="index.html">
+                  <img src="images38/language-it.jpg" alt="alternative">IT
+                </a>
+              </div>
+            </li>
+        </ul>
+    </div>
+    <div class="head-text">
+        <h1>"Popular Tourist Attraction Near Villa"</h1>
+    </div>
+    <div class="img">
+        <img style="width: 100%;" src="images38/article-details-large.jpg" alt="">
+    </div>
+    <div class="text">
+        <div class="head-text2">
+            <p>Are you looking for a relaxing experience in a wonderful Mediterranean setting? Then Villa is the right answer for romantic couples and fun families. You will find everything you need for a great holiday at Villa, from clean rooms with beautiful views to wonderful cuisine and friendly staff which will go out of their way to serve you.</p>
+            <p>You can have a good time indoors but the most exciting things await you outside in close proximity of the Villa or further way as tourist attractions. We have our own very large pool for you to enjoy but Villa's position close to the sea shore provides access to wonderful sandy beaches with restricted access only for Villa customers.</p>
+        </div>
+        <div class="head-text3">
+            <h1>Enjoy The Mediterranean Experience</h1>
+            <p style="padding-top: 1rem;">Our mission at Villa is to focus an all the details to make your stay an amazing experience. We've trained our staff to meet your expectations and exceed them so that your Villa experience becomes not just a regular memory but one of the best memories you have. We're passionate about this stuff and we will not let you down.</p>
+            <p>You can enjoy our clean spacious rooms, the splendid gardens, beautiful sea views and well thought out amenities. Villa's restaurant is famous for the fine cuisine created with only the freshest of local ingredients, cooked by famous chefs and served by our polite staff. The establishment's only purpose is to make you feel comfortable and relaxed.</p>
+        </div>
+    </div>
+    <div class="content2">
+        <ul class="sidebar2"> 
+            <div class="flex2">
+                <div class="margin">
+                    <div class="collapsible"><h1>1</h1>Beautiful Location</div>
+                <ul class="content6">
+                    <li>
+                        <h5>Villa is located at the Mediterranean sea and offers easy access to historical towns and tourist attractions</h5> 
+                    </li>
+                </ul>
+                </div>
+            </div> 
+        </ul>
+        <ul class="sidebar2"> 
+            <div class="flex2">
+                <div class="margin">
+                    <div class="collapsible"><h1>1</h1>Great Amenities</div>
+                <ul class="content6">
+                    <li>
+                        <h5>You have complete unrestricted access to our restaurant, private pool, beautiful gardens and sunny terrace</h5> 
+                    </li>
+                </ul>
+                </div>
+            </div> 
+        </ul>
+        <ul class="sidebar2"> 
+            <div class="flex2">
+                <div class="margin">
+                    <div class="collapsible"><h1>1</h1>Awesome Restaurant</div>
+                <ul class="content6">
+                    <li>
+                        <h5>Taste our delicious food made from fresh local ingredients that will delight meat lovers and vegetarians</h5> 
+                    </li>
+                </ul>
+                </div>
+            </div> 
+        </ul>
+    </div>
+    <div class="basics">
+        <p>Each of Villa's rooms was designed to offer the best possible experience for many types of travelers from the adventure seekers to those who value comfort. We've designed the rooms based on more than 10 years of experience in the hospitality business and the entire team is very proud of what we achieved with Villa.</p>
+        <h1>Popular Tourist Attractions</h1>
+        <img src="images38/article-details-small.jpg" alt="">
+        <p style="padding-top: 3rem;">The rooms are designed to offer the best possible levels of comfort and relaxation. The design is contemporary based on comforting colors and manages to appeal to many types of personalities and tastes. The materials used in Villa's construction are modern and durable, offering warm temperatures in the winter and cooler summer days.</p>
+        <p>Villa's amenities and rooms rooms are designed to offer the best possible levels of comfort and relaxation. The design is contemporary based on comforting colors and manages to appeal to many types of personalities and tastes. The materials used in Villa's construction are provided by top suppliers.</p>
+        <div class="text-box">
+            <h2>Wonderful Experience At The Mediterranean Sea</h2>
+            <p>Enjoy the sun, the cool water and the benefits of fresh air by booking Villa the wonderful experience at the Mediterranean sea. It's the perfect holiday location for both tranquility seeking couples and fun families. Villa's amenities and rooms rooms are designed to offer the best possible levels of comfort and relaxation. The design is contemporary based on comforting colors and relaxing patterns.</p>
+        </div>
+        <p style="padding-top: 3rem;">You can enjoy our clean spacious rooms, the splendid gardens, beautiful sea views and well thought out amenities. Villa's restaurant is famous for the fine cuisine created with only the freshest of local ingredients, cooked by famous chefs and served by our polite staff. The establishment's only purpose is to make you feel comfortable and relaxed.</p>
+        <ul class="list-unstyled li-space-lg mb-5">
+            <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><strong>Warm shower</strong> for those early spring and late autumn days. Showers are also available at the beach</div>
+            </li>
+            <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><strong>Modern LCD TV</strong> for rainy days that have to be spent inside. You can event connect the gaming console</div>
+            </li>
+            <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><strong>Air conditioning</strong> that is state of the art technology specially designed to create the optimum temperature</div>
+            </li>
+            <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><strong>Beautiful views</strong> from any window. Enjoy them from inside the room or sitting outside on the large balcony</div>
+            </li>
+            <li class="media">
+                <i class="fas fa-square"></i>
+                <div class="media-body"><strong>Packed minibar</strong> loaded with goodies so you can enjoy some treats if you forget to shop in town</div>
+            </li>
+        </ul>
+        <a class="btn-solid-reg mb-6" href="index.html">Home</a>
+    </div>
+    <!--footer-->
+  <div class="footer">
+    <div class="head-text5">
+      <h1>If you are looking too have a comfortable and relaxing time then you should get in touch with us using <a class="green" href="mailto:reception@villa.com">reception@villa.com</a></h1>
+      <ul class="social p-0">
+        <li>
+          <a href="">
+            <i class="fa-brands fa-facebook-f" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-twitter" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-pinterest-p" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-instagram" style="width: 25px;"></i>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <i class="fa-brands fa-youtube" style="width: 25px;"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--end of footer-->
+  <!--copyright-->
+  <div class="copyright">
+    <div class="copy">
+      <ul class="list4" style="margin-bottom: 0; padding-left: 0;">
+        <li>
+          <a href="index2.html">Article</a>
+        </li>
+        <li>
+          <a href="index3.html">Balcony Room</a>
+        </li>
+        <li>
+          <a href="index4.html">Panoramic Room</a>
+        </li>
+        <li>
+          <a href="index5.html">Presidential Room</a>
+        </li>
+        <li style="margin-bottom: 0;">
+          <a href="index6.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <div class="copy2">
+      <h3 style="margin-bottom: 0;">Copyright ©</h3>
+    </div>
+  </div>
+  <!--end of copyright-->
+
+
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="assets/js/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    const backToTopButton = document.querySelector("#back-to-top");
+  
+  backToTopButton.addEventListener("click", function() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+  
+  </script>
+  <script>
+    window.addEventListener("scroll", function() {
+    if (window.pageYOffset > 100) {
+      backToTopButton.style.display = "block";
+    } else {
+      backToTopButton.style.display = "none";
+    }
+  });
+  
+  </script>
+
+<script>
+    function toggleZ() {
+      var element = document.getElementById("sidebar");
+      element.classList.toggle("hide");
+    }
+</script>
+
+<script>
+    const navLinks = document.querySelectorAll(".nav-link");
+
+navLinks.forEach(link => {
+link.addEventListener("click", function() {
+navLinks.forEach(link => link.classList.remove("active"));
+this.classList.add("active");
+});
+});
+
+  </script>
+
+<script>
+    const coll = document.getElementsByClassName("collapsible");
+for (let i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    let content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+
+    </script>
+</body>
+</html>
